@@ -66,10 +66,10 @@ Grouping by ID: The query groups by record_id to ensure the data is returned as 
 
 ### Example Output
 
-| record_id | baseline_vdate | baseline_fcc | baseline_dccs | baseline_flanker | baseline_listSort | baseline_pattComp | 
-|-----------|----------------|--------------|---------------|------------------|-------------------|------------------|
-| 1         | 2025-02-05     | 5.1          | 3.2           | 7.4              | 8.1               | 6.3              | 
-| 2         | 2025-02-06     | 5.0          | 3.3           | 7.5              | 8.0               | 6.4              |
+| record_id | baseline_vdate | baseline_fcc | baseline_dccs | baseline_flanker | baseline_listSort | 
+|-----------|----------------|--------------|---------------|------------------|-------------------|
+| 1         | 2025-02-05     | 5.1          | 3.2           | 7.4              | 8.1               |
+| 2         | 2025-02-06     | 5.0          | 3.3           | 7.5              | 8.0               |
 
 Changelog
 Version 1.0: Initial script version to retrieve event-based data for Baseline and Week 10 events, with handling for duplicates and aggregation.
